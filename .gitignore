@@ -4,3 +4,7 @@ zig-out/
 .vscode/
 build/
 target/
+*.log
+*.tmp
+.DS_Store
+*.bak
