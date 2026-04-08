@@ -1,6 +1,6 @@
 const std = @import("std");
 const testing = std.testing;
-const isogram = @import("../src/introductions/isogram.zig");
+const isogram = @import("../src/exercism/isogram.zig");
 
 test "empty string" {
     try testing.expect(isogram.isIsogram(""));
